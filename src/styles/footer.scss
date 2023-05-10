@@ -1,0 +1,11 @@
+.foot{
+    padding: 16px;
+    text-align: center;
+    background-color: black;
+
+    &__text {
+        font-style: italic;
+        font-size: 32px;
+        color: white;
+    }
+}

@@ -1,0 +1,52 @@
+.header{
+    text-align: center;
+    background-image: url('../images/champagne-3515140_1280.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        content: '';
+        opacity: 0.4;
+    }
+
+    &__img{
+        padding-top: 40px;
+        width: 160px;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    &__infos {
+        padding: 16px;
+        max-width: 600px;
+        background-color: white;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+
+        &__time{
+            padding: 28px;
+            align-items: center;
+        }
+
+        &__local {
+            border-top: 1px solid black;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 8px;
+
+            &__title{
+                display: block;
+            }
+        }
+    }
+}
